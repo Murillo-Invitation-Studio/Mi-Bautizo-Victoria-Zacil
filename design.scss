@@ -53,26 +53,35 @@ body{
 // Nombre de los novios de portada
 // ================================================
 .Titulo_Cabezera{
-    position: absolute;
-    top: 22%;
-    left: 15%;
     color: $color-blanco;
     text-align: center;
     z-index: 5;
+    margin: 200px 0 0 0;
         
     h1{
-        font-family: $font-texto;
+        font-family: 45px;
         font-size: $size-texto;
-        white-space: nowrap;
         margin: 0;
         padding: 0;
     }
 
-    p{
+    h2{
         font-family: $font-titulos;
         font-size: $size-titulos;
         white-space: nowrap;
-        margin: 0;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    h3{
+        font-family: $font-texto;
+        font-size: 15px;
+    }
+
+    p{
+        font-family: $font-texto;
+        font-size: $size-texto;
+        white-space: nowrap;
     }
 }
 
@@ -80,6 +89,7 @@ body{
 //  Mensaje de presentacion
 //====================================================
 .Mensaje_de_los_novios{
+    margin: -150px 0 0 0;
     padding: 0;
     font-family: $font-texto;
     font-size: $size-texto;

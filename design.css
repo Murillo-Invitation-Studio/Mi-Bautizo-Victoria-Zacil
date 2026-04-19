@@ -28,28 +28,36 @@ body {
 }
 
 .Titulo_Cabezera {
-  position: absolute;
-  top: 22%;
-  left: 15%;
   color: #fff;
   text-align: center;
   z-index: 5;
+  margin: 200px 0 0 0;
 }
 .Titulo_Cabezera h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 45px;
   font-size: 25px;
-  white-space: nowrap;
   margin: 0;
   padding: 0;
 }
-.Titulo_Cabezera p {
+.Titulo_Cabezera h2 {
   font-family: "Great Vibes", cursive;
   font-size: 45px;
   white-space: nowrap;
-  margin: 0;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+.Titulo_Cabezera h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15px;
+}
+.Titulo_Cabezera p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  white-space: nowrap;
 }
 
 .Mensaje_de_los_novios {
+  margin: -150px 0 0 0;
   padding: 0;
   font-family: "Cormorant Garamond", serif;
   font-size: 25px;
