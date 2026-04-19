@@ -28,15 +28,18 @@ body{
 .Imagen_Cabezera{
     position: relative;
     width: 100%;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    height: auto;
     overflow: hidden;
 
     .foto-portada{
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center 30%;
+        max-width: 430px;
+        height: auto;
         display: block;
+        height: 100%;
+        object-fit: contain;
     }
 }
 
@@ -45,12 +48,18 @@ body{
 // ================================================
 .Titulo_Cabezera{
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); // 👈 centrado perfecto
     width: 100%;
     max-width: 430px;
+    margin: 0 auto;
     color: $color-blanco;
+    text-align: center;
+    padding-top: 0vh;
         
     h1{
         font-family: $font-texto;
