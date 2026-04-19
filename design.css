@@ -329,12 +329,14 @@ body {
     left: 50%;
   }
   .Titulo_Cabezera h1 {
+    font-family: "Cormorant Garamond", serif, bold;
     font-size: 20px;
   }
   .Titulo_Cabezera h2 {
     font-size: clamp(40px, 10vw, 50px);
   }
   .Titulo_Cabezera h3 {
+    font-family: "Cormorant Garamond", serif, bold;
     font-size: 18px;
   }
   .Titulo_Cabezera p {
