@@ -7,28 +7,28 @@ body {
 
 .Imagen_Cabezera {
   position: relative;
-  height: auto;
-  padding-bottom: 120px;
-  overflow: hidden;
-  background-image: url("https://Murillo-Invitation-Studio.github.io/Mi-Bautizo-Victoria-Zacil/Imagenes/FondoPortada.png");
-  background-size: contain;
-  background-position: center top;
-  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .Imagen_Cabezera .foto-portada {
   width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: top center;
-     object-position: top center;
+  max-width: 430px;
+  height: auto;
+  display: block;
 }
 
 .Titulo_Cabezera {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
   color: #fff;
   text-align: center;
-  z-index: 5;
-  margin: 200px 0 0 0;
+  padding-top: 0vh;
 }
 .Titulo_Cabezera h1 {
   font-family: "Cormorant Garamond", serif;
