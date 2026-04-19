@@ -17,7 +17,6 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   transform: scale(1);
-  animation: zoomPortada 25s ease-in-out infinite alternate;
 }
 .Imagen_Cabezera {
   /*
