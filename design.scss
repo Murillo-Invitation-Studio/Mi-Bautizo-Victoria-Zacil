@@ -391,18 +391,18 @@ body{
 }
 
 //============================================================
-//  Ayudas visuales para dispositivos moviles 400 pixeles
+//  Ayudas visuales para dispositivos moviles 390 - 430 pixeles
 //============================================================
-@media (max-width:400px){
+@media (max-width:430px){
     .Imagen_Cabezera{ 
         .foto-portada{
-            object-position: center 10%;
+            object-position: center 20%;
         }
     }
 
     .Titulo_Cabezera{
         text-align: center;
-        margin: 140px 0 0 0;
+        margin: 17vh 0 0 0;
         
         h1{
             font-family: $font-texto;
@@ -411,32 +411,33 @@ body{
 
         h2{
             font-family: $font-titulos;
-            font-size: $size-titulos;
+            font-size: clamp(28px, 6vw, 36px); // 🔥 responsive real;
             white-space: nowrap;
-            margin: 20px 0 0 0;
+            margin: 18px 0 0 0;
             padding: 0;
         }
 
         h3{
             font-family: $font-texto;
-            font-size: 17px;
-            margin: 10px 0 0 0;
+            font-size: 14px;
+            margin: 15px 0 0 0;
         }
 
         p{
             font-family: $font-texto;
-            font-size: 20px;
-            margin: 5px 0 0 0;
+            font-size: 15px;
+            margin: 15px 0 0 0;
+            padding: 0  10px;
         }
 
         .scroll-indicator{
-            margin-top: 5px;
+            margin-top: 10px;
         }
     }
 
     .Padrinos{
         .Icono_Cruz{
-            margin: -120px auto 10px;
+            margin: 0px auto 10px;
         }
     }
 }

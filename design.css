@@ -302,14 +302,14 @@ body {
     opacity: 0;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .Imagen_Cabezera .foto-portada {
-    -o-object-position: center 10%;
-       object-position: center 10%;
+    -o-object-position: center 20%;
+       object-position: center 20%;
   }
   .Titulo_Cabezera {
     text-align: center;
-    margin: 140px 0 0 0;
+    margin: 17vh 0 0 0;
   }
   .Titulo_Cabezera h1 {
     font-family: "Cormorant Garamond", serif;
@@ -317,25 +317,26 @@ body {
   }
   .Titulo_Cabezera h2 {
     font-family: "Great Vibes", cursive;
-    font-size: 45px;
+    font-size: clamp(28px, 6vw, 36px);
     white-space: nowrap;
-    margin: 20px 0 0 0;
+    margin: 18px 0 0 0;
     padding: 0;
   }
   .Titulo_Cabezera h3 {
     font-family: "Cormorant Garamond", serif;
-    font-size: 17px;
-    margin: 10px 0 0 0;
+    font-size: 14px;
+    margin: 15px 0 0 0;
   }
   .Titulo_Cabezera p {
     font-family: "Cormorant Garamond", serif;
-    font-size: 20px;
-    margin: 5px 0 0 0;
+    font-size: 15px;
+    margin: 15px 0 0 0;
+    padding: 0 10px;
   }
   .Titulo_Cabezera .scroll-indicator {
-    margin-top: 5px;
+    margin-top: 10px;
   }
   .Padrinos .Icono_Cruz {
-    margin: -120px auto 10px;
+    margin: 0px auto 10px;
   }
 }/*# sourceMappingURL=design.css.map */
