@@ -1,10 +1,6 @@
 body {
   text-align: center;
-  background-image: url("https://Murillo-Invitation-Studio.github.io/Wedding_Silver_Marble_Cloud/Image/Fondo_Marmol_Rosa.jpg");
-  background-repeat: repeat-y;
-  background-position: top center;
-  background-size: 100% auto;
-  background-attachment: scroll;
+  background-color: #FFE6EB;
   padding: 0;
   margin: 0;
 }
@@ -34,8 +30,8 @@ body {
   margin: 200px 0 0 0;
 }
 .Titulo_Cabezera h1 {
-  font-family: 45px;
-  font-size: 25px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
   margin: 0;
   padding: 0;
 }
@@ -43,149 +39,42 @@ body {
   font-family: "Great Vibes", cursive;
   font-size: 45px;
   white-space: nowrap;
-  margin: 10px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 0;
 }
 .Titulo_Cabezera h3 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 15px;
+  font-size: 20px;
+  margin: 20px 0 0 0;
 }
 .Titulo_Cabezera p {
   font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
-  white-space: nowrap;
-}
-
-.Mensaje_de_los_novios {
-  margin: -150px 0 0 0;
-  padding: 0;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
-}
-
-.Novios {
-  padding: 0;
-  margin-bottom: 0;
-}
-.Novios h2 {
-  font-family: "Great Vibes", cursive;
-  font-size: 45px;
-  color: #B8962E;
-  margin-top: 50px;
-}
-.Novios p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
-  margin-top: -25px;
-}
-
-.FotoNovios {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: auto;
-  max-width: 370px;
-  margin: 40px auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
-}
-
-.Padres {
-  padding-top: 20px;
-  padding-bottom: 1px;
-}
-.Padres .Padres_Novio h2,
-.Padres .Padres_Novia h2 {
-  font-family: "Great Vibes", cursive;
-  font-size: 45px;
-  margin-top: 10px;
-  color: #B8962E;
-}
-.Padres .Padres_Novio p,
-.Padres .Padres_Novia p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
-  margin-top: -25px;
-}
-.Padres .Imagen_Novio,
-.Padres .Imagen_Novia {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
+  font-size: 20px;
 }
 
 .Padrinos {
-  text-align: center;
-  padding: 20px;
+  padding: 0;
   margin-bottom: 0;
+  text-align: center;
+}
+.Padrinos .Icono_Cruz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: auto;
+  height: 50px;
 }
 .Padrinos h2 {
   font-family: "Great Vibes", cursive;
   font-size: 45px;
   color: #B8962E;
+  margin-top: 20px;
 }
 .Padrinos p {
   font-family: "Cormorant Garamond", serif;
   font-size: 25px;
   margin-top: -25px;
-}
-.Padrinos .Icono_Lazo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: -10px auto -40px;
-  height: 100px;
-}
-.Padrinos .Icono_Velacion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: -60px auto;
-  height: 150px;
-}
-
-.Galeria {
-  padding: 10px;
-  margin-bottom: 0;
-}
-.Galeria h2 {
-  font-family: "Great Vibes", cursive;
-  font-size: 45px;
-  margin: -10px 0 20px;
-  color: #B8962E;
-}
-.Galeria .Colage {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 150px;
-  gap: 10px;
-}
-.Galeria .Colage img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
-}
-.Galeria .Colage img:nth-child(1) {
-  grid-column: span 2;
-  grid-row: span 2;
-}
-.Galeria .Colage img:nth-child(2) {
-  grid-column: span 2;
-  grid-row: span 1;
-}
-.Galeria .Colage img:nth-child(3) {
-  grid-column: span 1;
-  grid-row: span 1;
-}
-.Galeria .Colage img:nth-child(4) {
-  grid-column: span 1;
-  grid-row: span 1;
 }
 
 .section {
@@ -227,30 +116,9 @@ body {
 .evento .Imagen_Recepcion {
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   height: auto;
   box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
-}
-.evento .Icono_Iglesia {
-  display: flex;
-  margin: 0px auto;
-  height: auto;
-  width: 100px;
-  margin-top: 0;
-}
-.evento .Icono_Casino {
-  display: flex;
-  margin: 0px auto;
-  height: auto;
-  width: 100px;
-  margin-top: 20px;
-}
-.evento .Icono_Vestimenta {
-  display: flex;
-  margin: 0px auto;
-  height: auto;
-  width: 60px;
-  margin-top: 0;
 }
 
 .boton {
@@ -305,7 +173,7 @@ body {
 }
 .Mesa_De_Regalos p {
   font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
+  font-size: 24px;
   margin-top: 0;
 }
 
@@ -335,94 +203,6 @@ body {
   border-radius: 15px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }
-.Regalos .Sobres {
-  flex: 1 1 250px;
-  max-width: 300px;
-}
-.Regalos .Sobres p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
-  margin-top: 0;
-}
-.Regalos .Sobres .Icono_Sobres {
-  display: flex;
-  width: 180px;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.Ventana {
-  position: fixed;
-  inset: 0;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.75);
-  z-index: 9999;
-  height: 100dvh;
-  padding: 20px;
-}
-.Ventana .VentanaContenido {
-  background: #fff;
-  width: 100%;
-  max-width: 420px;
-  margin: 0;
-  padding: 25px 20px 20px 20px;
-  border-radius: 10px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  box-sizing: border-box;
-  max-height: 80vh;
-  overflow-y: auto;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-}
-.Ventana .VentanaContenido p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
-  margin: 25px;
-}
-.Ventana.activo {
-  display: flex;
-  opacity: 1;
-  pointer-events: auto;
-}
-.Ventana .CerrarNota {
-  position: absolute;
-  top: 10px;
-  right: 12px;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.botonSobres {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 20px;
-  background-color: #DDC093;
-  color: #fff;
-  text-decoration: none;
-  border: 0;
-  border-radius: 5px;
-  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.55);
-  cursor: pointer;
-  transition: background 0.2s, transform 0.1s;
-  -moz-appearance: none;
-       appearance: none;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
-}
-.botonSobres:hover {
-  background: #000;
-}
-.botonSobres:active {
-  transform: scale(0.97);
-  background-color: #111;
-}
 
 .Confirmacion {
   text-align: center;
@@ -450,35 +230,6 @@ body {
   font-size: 15px;
 }
 
-#botonMusica {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  padding: 14px 25px;
-  background: rgba(30, 30, 30, 0.55);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 50px;
-  color: #fff;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 15px;
-  font-weight: 900;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background 0.2s, border-color 0.2s, transform 0.1s;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
-}
-#botonMusica:hover {
-  background: rgba(50, 50, 50, 0.7);
-  border-color: rgba(255, 255, 255, 0.28);
-  transform: scale(1.03);
-}
-#botonMusica:active {
-  transform: scale(0.97);
-}
-
 .scroll-indicator {
   display: flex;
   flex-direction: column;
@@ -486,9 +237,9 @@ body {
   gap: 5px;
   position: relative;
   z-index: 3;
-  margin-top: 50px;
+  margin-top: 0;
   margin-bottom: 0;
-  font-size: 13px;
+  font-size: 10px;
   animation: fadeIn 1s ease forwards;
   animation-delay: 1s;
 }
@@ -551,26 +302,40 @@ body {
     opacity: 0;
   }
 }
-@media (min-width: 901px) {
-  .Imagen_Cabezera .foto-portada {
-    -o-object-position: center 25%;
-       object-position: center 25%;
-  }
-}
 @media (max-width: 400px) {
   .Imagen_Cabezera .foto-portada {
     -o-object-position: center 10%;
        object-position: center 10%;
   }
-}
-@media (max-width: 600px) {
+  .Titulo_Cabezera {
+    text-align: center;
+    margin: 140px 0 0 0;
+  }
   .Titulo_Cabezera h1 {
+    font-family: "Cormorant Garamond", serif;
     font-size: 20px;
   }
-  .Titulo_Cabezera p {
-    font-size: 50px;
+  .Titulo_Cabezera h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 45px;
+    white-space: nowrap;
+    margin: 20px 0 0 0;
+    padding: 0;
   }
-  .scroll-indicator {
-    margin-top: 8px;
+  .Titulo_Cabezera h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 19px;
+    margin: 10px 0 0 0;
+  }
+  .Titulo_Cabezera p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+  }
+  .Titulo_Cabezera .scroll-indicator {
+    margin-top: 5px;
+  }
+  .Padrinos .Icono_Cruz {
+    margin: -60px auto 10px;
   }
 }/*# sourceMappingURL=design.css.map */
