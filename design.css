@@ -13,37 +13,38 @@ body {
   position: relative;
   height: 100vh;
   overflow: hidden;
-  background-color: #f3e1d0;
   background-image: url("https://Murillo-Invitation-Studio.github.io/Mi-Bautizo-Victoria-Zacil/Imagenes/FondoPortada.png");
-  background-size: cover;
-  background-position: center 20%;
+  background-size: contain;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 .Imagen_Cabezera .foto-portada {
-  display: none;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: top center;
+     object-position: top center;
 }
 
 .Titulo_Cabezera {
   position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 22%;
+  left: 15%;
   color: #fff;
   text-align: center;
   z-index: 5;
 }
 .Titulo_Cabezera h1 {
-  font-family: "Great Vibes", cursive;
-  font-size: 45px;
-  text-shadow: 4px 4px 0 #000;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
   white-space: nowrap;
   margin: 0;
   padding: 0;
 }
 .Titulo_Cabezera p {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
-  text-shadow: 4px 4px 0 #000;
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
   white-space: nowrap;
   margin: 0;
 }
@@ -513,82 +514,6 @@ body {
   background: #B8962E;
 }
 
-.contador-wrapper {
-  text-align: center;
-  margin-top: 0;
-}
-.contador-wrapper h2 {
-  font-family: "Great Vibes", cursive;
-  font-size: 45px;
-  color: #B8962E;
-  margin-bottom: 0;
-}
-.contador-wrapper .contador {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: clamp(6px, 2vw, 20px);
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  font-family: "Italic", serif;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-.contador-wrapper .contador::-webkit-scrollbar {
-  height: 0;
-  display: none;
-}
-.contador-wrapper .contador .bloque {
-  flex: 0 0 auto;
-  min-width: clamp(45px, 20vw, 70px);
-  padding: clamp(6px, 1.5vw, 10px);
-  margin-top: 40px;
-  border-radius: 12px;
-  background-color: transparent;
-  background: #fff;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.01);
-  opacity: 0;
-  transform: translateY(8px);
-  animation: fadeUp 0.6s ease forwards;
-}
-.contador-wrapper .contador .bloque:first-child {
-  border-top: none;
-}
-.contador-wrapper .contador .bloque:nth-child(2) {
-  animation-delay: 0.05s;
-}
-.contador-wrapper .contador .bloque:nth-child(3) {
-  animation-delay: 0.1s;
-}
-.contador-wrapper .contador .bloque:nth-child(4) {
-  animation-delay: 0.15s;
-}
-.contador-wrapper .contador .valor {
-  display: block;
-  margin-top: 5px;
-  font-size: clamp(20px, 8vw, 35px);
-  font-weight: 700;
-  line-height: 1;
-  color: #000;
-  font-variant-numeric: tabular-nums;
-}
-.contador-wrapper .contador small {
-  display: block;
-  margin-top: 6px;
-  font-size: clamp(12px, 4vw, 15px);
-  color: #000;
-  letter-spacing: 0.3px;
-}
-.contador-wrapper .contador-msg {
-  margin-top: 16px;
-  font-family: "Cormorant Garamond", serif;
-  font-size: clamp(20px, 3.8vw, 50px);
-  font-weight: 600;
-  color: #000;
-}
-
 .reveal {
   opacity: 0;
   transform: translateY(30px);
@@ -631,17 +556,11 @@ body {
   }
 }
 @media (max-width: 600px) {
-  .Imagen_Cabezera .foto-portada {
-    -o-object-position: center 10%;
-       object-position: center 10%;
-  }
   .Titulo_Cabezera h1 {
-    font-size: 60px;
-    text-shadow: 3px 3px 0 #000;
+    font-size: 20px;
   }
   .Titulo_Cabezera p {
     font-size: 50px;
-    text-shadow: 3px 3px 0 #000;
   }
   .scroll-indicator {
     margin-top: 8px;
