@@ -36,10 +36,10 @@ body {
   margin: 0 auto;
   color: #fff;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 16vh;
 }
 .Titulo_Cabezera h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Cormorant Garamond", serif, bold;
   font-size: 28px;
   margin: 10px 0 0 0;
 }
@@ -50,13 +50,13 @@ body {
   white-space: nowrap;
 }
 .Titulo_Cabezera h3 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Cormorant Garamond", serif, bold;
   font-size: 20px;
   margin: 15px 0 0 0;
 }
 .Titulo_Cabezera p {
   font-family: "Cormorant Garamond", serif;
-  font-size: 20px;
+  font-size: 25px;
   margin: 15px 0 0 0;
 }
 
@@ -338,7 +338,7 @@ body {
     font-size: 18px;
   }
   .Titulo_Cabezera p {
-    font-size: 22px;
+    font-size: 25px;
   }
   .Titulo_Cabezera .scroll-indicator {
     margin-top: 10px;

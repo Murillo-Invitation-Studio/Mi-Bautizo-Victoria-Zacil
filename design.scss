@@ -60,10 +60,10 @@ body{
     margin: 0 auto;
     color: $color-blanco;
     text-align: center;
-    padding-top: 15vh;
+    padding-top: 16vh;
         
     h1{
-        font-family: $font-texto;
+        font-family: $font-texto, bold;
         font-size: 28px;
         margin: 10px 0 0 0;
     }
@@ -76,14 +76,14 @@ body{
     }
 
     h3{
-        font-family: $font-texto;
+        font-family: $font-texto, bold;
         font-size: 20px;
         margin: 15px 0 0 0;
     }
 
     p{
         font-family: $font-texto;
-        font-size: 20px;
+        font-size: 25px;
         margin: 15px 0 0 0;
     }
 }
@@ -437,7 +437,7 @@ body{
         }
 
         p{
-            font-size: 22px;
+            font-size: 25px;
         }
 
         .scroll-indicator{
