@@ -7,7 +7,8 @@ body {
 
 .Imagen_Cabezera {
   position: relative;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 120px;
   overflow: hidden;
   background-image: url("https://Murillo-Invitation-Studio.github.io/Mi-Bautizo-Victoria-Zacil/Imagenes/FondoPortada.png");
   background-size: contain;
@@ -330,13 +331,13 @@ body {
   .Titulo_Cabezera p {
     font-family: "Cormorant Garamond", serif;
     font-size: 22px;
-    margin: 8px 0 0 0;
+    margin: 5px 0 0 0;
     padding: 0 10px;
   }
   .Titulo_Cabezera .scroll-indicator {
     margin-top: 10px;
   }
   .Padrinos .Icono_Cruz {
-    margin: 0px auto 10px;
+    margin: 25px auto 10px;
   }
 }/*# sourceMappingURL=design.css.map */
