@@ -317,7 +317,7 @@ body {
   }
   .Titulo_Cabezera h2 {
     font-family: "Great Vibes", cursive;
-    font-size: clamp(28px, 6vw, 36px);
+    font-size: clamp(40px, 10vw, 50px);
     white-space: nowrap;
     margin: 18px 0 0 0;
     padding: 0;
