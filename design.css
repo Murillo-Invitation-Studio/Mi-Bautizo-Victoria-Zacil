@@ -1,0 +1,685 @@
+body {
+  text-align: center;
+  background-image: url("https://Murillo-Invitation-Studio.github.io/Wedding_Silver_Marble_Cloud/Image/Fondo_Marmol_Rosa.jpg");
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-size: 100% auto;
+  background-attachment: scroll;
+  padding: 0;
+  margin: 0;
+}
+
+.Imagen_Cabezera {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+}
+.Imagen_Cabezera .foto-portada {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(1);
+  animation: zoomPortada 25s ease-in-out infinite alternate;
+}
+
+.Titulo_Cabezera {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 5;
+}
+.Titulo_Cabezera h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  text-shadow: 4px 4px 0 #000;
+  white-space: nowrap;
+  margin: 0;
+}
+.Titulo_Cabezera p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  text-shadow: 4px 4px 0 #000;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.Mensaje_de_los_novios {
+  padding: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+}
+
+.Novios {
+  padding: 0;
+  margin-bottom: 0;
+}
+.Novios h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  color: #B8962E;
+  margin-top: 50px;
+}
+.Novios p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.FotoNovios {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  max-width: 370px;
+  margin: 40px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
+}
+
+.Padres {
+  padding-top: 20px;
+  padding-bottom: 1px;
+}
+.Padres .Padres_Novio h2,
+.Padres .Padres_Novia h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  margin-top: 10px;
+  color: #B8962E;
+}
+.Padres .Padres_Novio p,
+.Padres .Padres_Novia p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin-top: -25px;
+}
+.Padres .Imagen_Novio,
+.Padres .Imagen_Novia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.Padrinos {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+}
+.Padrinos h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  color: #B8962E;
+}
+.Padrinos p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin-top: -25px;
+}
+.Padrinos .Icono_Lazo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -10px auto -40px;
+  height: 100px;
+}
+.Padrinos .Icono_Velacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -60px auto;
+  height: 150px;
+}
+
+.Galeria {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.Galeria h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  margin: -10px 0 20px;
+  color: #B8962E;
+}
+.Galeria .Colage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 150px;
+  gap: 10px;
+}
+.Galeria .Colage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
+}
+.Galeria .Colage img:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.Galeria .Colage img:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.Galeria .Colage img:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.Galeria .Colage img:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.section {
+  padding: 20px;
+  margin: 0;
+}
+.section h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #B8962E;
+}
+.section h3 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.section p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.evento {
+  background: #fff;
+  padding: 40px;
+  margin: 0 auto 30px;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.evento h3 {
+  margin-bottom: 40px;
+  color: #B8962E;
+}
+.evento .Imagen_Ceremonia,
+.evento .Imagen_Recepcion {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
+}
+.evento .Icono_Iglesia {
+  display: flex;
+  margin: 0px auto;
+  height: auto;
+  width: 100px;
+  margin-top: 0;
+}
+.evento .Icono_Casino {
+  display: flex;
+  margin: 0px auto;
+  height: auto;
+  width: 100px;
+  margin-top: 20px;
+}
+.evento .Icono_Vestimenta {
+  display: flex;
+  margin: 0px auto;
+  height: auto;
+  width: 60px;
+  margin-top: 0;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  background: #DDC093;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+.boton:hover {
+  background: #333;
+}
+.boton:active {
+  transform: scale(0.97);
+}
+
+.botonWhatsapp {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 12px 25px;
+  background: #128C7E;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+.botonWhatsapp:hover {
+  background-color: #333;
+}
+.botonWhatsapp:active {
+  transform: scale(0.97);
+}
+
+.Mesa_De_Regalos {
+  text-align: center;
+}
+.Mesa_De_Regalos h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  margin-bottom: 15px;
+  color: #B8962E;
+}
+.Mesa_De_Regalos p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.Regalos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.Regalos .Liverpool {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+.Regalos .Liverpool p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin-top: 0;
+}
+.Regalos .Liverpool .Icono_Liverpool {
+  display: flex;
+  width: 180px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.Regalos .Sobres {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+.Regalos .Sobres p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin-top: 0;
+}
+.Regalos .Sobres .Icono_Sobres {
+  display: flex;
+  width: 180px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.Ventana {
+  position: fixed;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999;
+  height: 100dvh;
+  padding: 20px;
+}
+.Ventana .VentanaContenido {
+  background: #fff;
+  width: 100%;
+  max-width: 420px;
+  margin: 0;
+  padding: 25px 20px 20px 20px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+.Ventana .VentanaContenido p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin: 25px;
+}
+.Ventana.activo {
+  display: flex;
+  opacity: 1;
+  pointer-events: auto;
+}
+.Ventana .CerrarNota {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.botonSobres {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  background-color: #DDC093;
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.botonSobres:hover {
+  background: #000;
+}
+.botonSobres:active {
+  transform: scale(0.97);
+  background-color: #111;
+}
+
+.Confirmacion {
+  text-align: center;
+}
+.Confirmacion h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  color: #B8962E;
+}
+.Confirmacion p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  margin-top: -15px;
+  padding: 0 1px;
+}
+
+.Pie_de_pagina {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 1px;
+  margin-top: 25px;
+}
+.Pie_de_pagina p {
+  font-size: 15px;
+}
+
+#botonMusica {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 14px 25px;
+  background: rgba(30, 30, 30, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, transform 0.1s;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+#botonMusica:hover {
+  background: rgba(50, 50, 50, 0.7);
+  border-color: rgba(255, 255, 255, 0.28);
+  transform: scale(1.03);
+}
+#botonMusica:active {
+  transform: scale(0.97);
+}
+
+.scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  z-index: 3;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 13px;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1s;
+}
+.scroll-indicator span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-top: 0;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+  transform: rotate(45deg);
+  animation: scrollAnim 1.8s infinite;
+  opacity: 0.8;
+}
+.scroll-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.divisor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 100%;
+  gap: 10px;
+}
+.divisor .linea {
+  flex: 1;
+  height: 1px;
+  background: #B8962E;
+}
+
+.contador-wrapper {
+  text-align: center;
+  margin-top: 0;
+}
+.contador-wrapper h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  color: #B8962E;
+  margin-bottom: 0;
+}
+.contador-wrapper .contador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: clamp(6px, 2vw, 20px);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  font-family: "Italic", serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.contador-wrapper .contador::-webkit-scrollbar {
+  height: 0;
+  display: none;
+}
+.contador-wrapper .contador .bloque {
+  flex: 0 0 auto;
+  min-width: clamp(45px, 20vw, 70px);
+  padding: clamp(6px, 1.5vw, 10px);
+  margin-top: 40px;
+  border-radius: 12px;
+  background-color: transparent;
+  background: #fff;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.01);
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadeUp 0.6s ease forwards;
+}
+.contador-wrapper .contador .bloque:first-child {
+  border-top: none;
+}
+.contador-wrapper .contador .bloque:nth-child(2) {
+  animation-delay: 0.05s;
+}
+.contador-wrapper .contador .bloque:nth-child(3) {
+  animation-delay: 0.1s;
+}
+.contador-wrapper .contador .bloque:nth-child(4) {
+  animation-delay: 0.15s;
+}
+.contador-wrapper .contador .valor {
+  display: block;
+  margin-top: 5px;
+  font-size: clamp(20px, 8vw, 35px);
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  font-variant-numeric: tabular-nums;
+}
+.contador-wrapper .contador small {
+  display: block;
+  margin-top: 6px;
+  font-size: clamp(12px, 4vw, 15px);
+  color: #000;
+  letter-spacing: 0.3px;
+}
+.contador-wrapper .contador-msg {
+  margin-top: 16px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(20px, 3.8vw, 50px);
+  font-weight: 600;
+  color: #000;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.6s cubic-bezier(0.22, 1, 0.36, 1), transform 1.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.inicial {
+  transform: translateY(40px) scale(0.98);
+}
+.reveal.activo {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal p {
+  transition-delay: 0;
+}
+
+@keyframes scrollAnim {
+  0% {
+    transform: rotate(45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(45deg) translate(5px, 5px);
+    opacity: 0;
+  }
+}
+@keyframes zoomPortada {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+@media (min-width: 901px) {
+  .Imagen_Cabezera {
+    height: 100vh;
+  }
+  .Imagen_Cabezera .foto-portada {
+    -o-object-position: center 20%;
+       object-position: center 20%;
+    transform: none;
+    animation: none;
+  }
+}
+@media (max-width: 600px) {
+  .Titulo_Cabezera h1 {
+    font-size: 60px;
+    text-shadow: 3px 3px 0 #000;
+  }
+  .Titulo_Cabezera p {
+    font-size: 50px;
+    text-shadow: 3px 3px 0 #000;
+  }
+  .slider {
+    max-width: 92vw;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
+  }
+  .slides_galeria {
+    display: flex;
+    transition: transform 1s ease;
+  }
+  .slide {
+    width: 100%;
+    flex-shrink: 0;
+    height: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .contador {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .contador .valor {
+    font-size: 20px;
+  }
+  .contador small {
+    font-size: 10px;
+  }
+  .scroll-indicator {
+    margin-top: 8px;
+  }
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}/*# sourceMappingURL=design.css.map */
