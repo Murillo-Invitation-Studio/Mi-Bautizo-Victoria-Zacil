@@ -295,6 +295,35 @@ body {
   background: #B8962E;
 }
 
+#botonMusica {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 14px 25px;
+  background: rgba(30, 30, 30, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, transform 0.1s;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+#botonMusica:hover {
+  background: rgba(50, 50, 50, 0.7);
+  border-color: rgba(255, 255, 255, 0.28);
+  transform: scale(1.03);
+}
+#botonMusica:active {
+  transform: scale(0.97);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(30px);
