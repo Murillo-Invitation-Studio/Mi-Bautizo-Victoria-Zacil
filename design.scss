@@ -17,13 +17,9 @@ $color-negro: #000;
 //====================================================
 body{
     text-align: center;
-    background-image: url("https://Murillo-Invitation-Studio.github.io/Mi-Bautizo-Victoria-Zacil/Imagenes/FondoPortada6.jpeg");
-    background-repeat: repeat-y;       // ✅ ahora sí
-    background-position: top center;
-    background-size: 100% auto;
-    background-attachment: scroll;
+    background-color: #FFE6EB;
     padding: 0;
-    margin: 0;// 👈 llena pantalla correctamente
+    margin: 0;
 }
 
 //====================================================
@@ -42,6 +38,7 @@ body{
         max-width: 430px;
         height: auto;
         display: block;
+        height: 100%;
         object-fit: contain;
     }
 }
@@ -63,7 +60,7 @@ body{
     margin: 0 auto;
     color: $color-blanco;
     text-align: center;
-    padding-top: 0vh;
+    padding-top: 15vh;
         
     h1{
         font-family: $font-texto;
@@ -74,20 +71,20 @@ body{
     h2{
         font-family: $font-titulos;
         font-size: $size-titulos;
-        margin: 5px 0;
+        margin: 10px 0;
         white-space: nowrap;
     }
 
     h3{
         font-family: $font-texto;
         font-size: 20px;
-        margin: 10px 0 0 0;
+        margin: 15px 0 0 0;
     }
 
     p{
         font-family: $font-texto;
         font-size: 20px;
-        margin: 10px 0 0 0;
+        margin: 15px 0 0 0;
     }
 }
 
