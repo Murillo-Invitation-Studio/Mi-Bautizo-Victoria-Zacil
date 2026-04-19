@@ -34,8 +34,9 @@ body{
     .foto-portada{
         width: 100%;
         height: 100%;
-        object-fit: contain;
-        object-position: center;
+        object-fit: cover;
+        object-position: center 30%;
+        display: block;
     }
 }
 
@@ -54,24 +55,26 @@ body{
     h1{
         font-family: $font-texto;
         font-size: 28px;
-        margin: 0;
+        margin: 10px 0 0 0;
     }
 
     h2{
         font-family: $font-titulos;
         font-size: $size-titulos;
-        margin: 20px 0;
+        margin: 5px 0;
         white-space: nowrap;
     }
 
     h3{
         font-family: $font-texto;
         font-size: 20px;
+        margin: 10px 0 0 0;
     }
 
     p{
         font-family: $font-texto;
         font-size: 20px;
+        margin: 10px 0 0 0;
     }
 }
 
