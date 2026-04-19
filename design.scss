@@ -413,20 +413,20 @@ body{
             font-family: $font-titulos;
             font-size: clamp(40px, 10vw, 50px); // 🔥 responsive real;
             white-space: nowrap;
-            margin: 18px 0 0 0;
+            margin: 16px 0 0 0;
             padding: 0;
         }
 
         h3{
             font-family: $font-texto;
             font-size: 18px;
-            margin: 15px 0 0 0;
+            margin: 12px 0 0 0;
         }
 
         p{
             font-family: $font-texto;
-            font-size: 25px;
-            margin: 15px 0 0 0;
+            font-size: 22px;
+            margin: 8px 0 0 0;
             padding: 0  10px;
         }
 
