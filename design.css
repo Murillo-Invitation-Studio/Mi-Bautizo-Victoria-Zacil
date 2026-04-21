@@ -36,28 +36,50 @@ body {
   margin: 0 auto;
   color: #fff;
   text-align: center;
-  padding-top: 16vh;
+  padding-top: 20vh;
 }
 .Titulo_Cabezera h1 {
   font-family: "Cormorant Garamond", serif, bold;
-  font-size: 28px;
-  margin: 10px 0 0 0;
+  font-size: 25px;
+  margin: 0;
 }
 .Titulo_Cabezera h2 {
   font-family: "Great Vibes", cursive;
-  font-size: 45px;
-  margin: 10px 0;
+  font-size: 60px;
+  margin: 30px 0;
   white-space: nowrap;
 }
 .Titulo_Cabezera h3 {
   font-family: "Cormorant Garamond", serif, bold;
   font-size: 20px;
-  margin: 15px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .Titulo_Cabezera p {
   font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
+  font-size: 40px;
   margin: 15px 0 0 0;
+}
+
+.Bautizado {
+  text-align: center;
+}
+.Bautizado h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  color: #B8962E;
+  margin: 5px 0 5px 0;
+}
+.Bautizado p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+}
+.Bautizado .Foto7 {
+  width: 90%;
+  max-width: 380px;
+  height: auto;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
 }
 
 .Padrinos {
@@ -240,6 +262,55 @@ body {
   margin-top: -15px;
   padding: 0 1px;
 }
+.Confirmacion .Foto1 {
+  width: 90%;
+  max-width: 380px;
+  height: auto;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
+}
+
+.Galeria {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.Galeria h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 45px;
+  margin: -10px 0 20px;
+  color: #B8962E;
+}
+.Galeria .Colage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 150px;
+  gap: 10px;
+}
+.Galeria .Colage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.8);
+}
+.Galeria .Colage img:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.Galeria .Colage img:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.Galeria .Colage img:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.Galeria .Colage img:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
 
 .Pie_de_pagina {
   text-align: center;
@@ -359,17 +430,19 @@ body {
   }
   .Titulo_Cabezera h1 {
     font-family: "Cormorant Garamond", serif, bold;
-    font-size: 20px;
+    font-size: 25px;
+    margin-top: -20px;
   }
   .Titulo_Cabezera h2 {
-    font-size: clamp(40px, 10vw, 50px);
+    font-size: clamp(40px, 15vw, 50px);
   }
   .Titulo_Cabezera h3 {
     font-family: "Cormorant Garamond", serif, bold;
-    font-size: 18px;
+    font-size: 20px;
   }
   .Titulo_Cabezera p {
-    font-size: 25px;
+    font-size: 35px;
+    margin-top: -20px;
   }
   .Titulo_Cabezera .scroll-indicator {
     margin-top: 10px;
